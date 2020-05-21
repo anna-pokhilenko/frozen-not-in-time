@@ -1,0 +1,7 @@
+html {
+  font-family: "Fredoka One", cursive;
+}
+
+main {
+  background: repeating-linear-gradient(-45deg, #d4fdff 0px 20px, #c9fcff 20px 40px);
+}
