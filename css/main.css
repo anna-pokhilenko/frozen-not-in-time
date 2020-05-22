@@ -1,5 +1,5 @@
 html {
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
 }
 
 main {
@@ -7,6 +7,7 @@ main {
   background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff .5em,
   #d4fdff 0, #d4fdff 1em);
   border-bottom: 9px solid #b3fbff;
+  min-height: 480px;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
 }
 
 p {
+  min-width: 19em;
   max-width: 19em;
   color: #c09;
   transform: rotate(-5deg);
@@ -23,8 +25,8 @@ p {
 }
 
 .btn {
-  border-color: #c09;
-  color: #990073;
+  border-color: #990073;
+  color: #c09;
 }
 
 .btn-ghost {
