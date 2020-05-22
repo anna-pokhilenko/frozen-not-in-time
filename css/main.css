@@ -3,5 +3,31 @@ html {
 }
 
 main {
-  background: repeating-linear-gradient(-45deg, #d4fdff 0px 20px, #c9fcff 20px 40px);
+  border-top: 9px solid #b3fbff;
+  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff .5em,
+  #d4fdff 0, #d4fdff 1em);
+  border-bottom: 9px solid #b3fbff;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+  transform-origin: left bottom;
+}
+
+p {
+  max-width: 19em;
+  color: #c09;
+  transform: rotate(-5deg);
+  transform-origin: left bottom;
+}
+
+.btn {
+  border-color: #c09;
+  color: #990073;
+}
+
+.btn-ghost {
+  border-color: #c09;
+  color: #990073;
 }
