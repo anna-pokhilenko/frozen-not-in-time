@@ -22,14 +22,23 @@ p {
   color: #c09;
   transform: rotate(-5deg);
   transform-origin: left bottom;
+  margin-left: .375rem;
 }
 
 .btn {
-  border-color: #990073;
-  color: #c09;
+  border-color: #c09;
+  color: #990073;
 }
 
 .btn-ghost {
   border-color: #c09;
   color: #990073;
+}
+
+@media only screen and (min-width: 90em) {
+
+  .shift-w-push {
+    margin-left: 8.5rem;
+  }
+
 }
