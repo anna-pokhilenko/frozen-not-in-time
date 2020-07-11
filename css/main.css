@@ -42,3 +42,23 @@ p {
   }
 
 }
+
+.cherry {
+z-index: 100;
+}
+
+.vanilla-fudge {
+  margin-top: -8em;
+}
+
+.chocolate-chip {
+    margin-top: -8em;
+}
+
+.mint-chip {
+    margin-top: -8em;
+}
+
+.cone {
+    margin-top: -8em;
+}
