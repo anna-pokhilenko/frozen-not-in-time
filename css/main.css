@@ -42,6 +42,29 @@ p {
   margin-left: 12em;
 }
 
+.mint-chip {
+  position: absolute;
+  width: 180px;
+  margin-top: 10em;
+  margin-left: 12em;
+}
+
+.chocolate-chip {
+  position: absolute;
+  width: 180px;
+  margin-top: 5.5em;
+  margin-left: 12.3em;
+  z-index: 5;
+}
+
+.vanilla-fudge {
+  position: absolute;
+  width: 180px;
+  margin-top: 1.7em;
+  margin-left: 11.5em;
+  z-index: 10;
+}
+
 @media only screen and (min-width: 90em) {
 
   .shift-w-push {
@@ -53,27 +76,25 @@ p {
     margin-left: 13em;
   }
 
+  .mint-chip {
+    margin-top: 9.5em;
+    margin-left: 13em;
+  }
+
+  .chocolate-chip {
+    margin-top: 5.3em;
+    margin-left: 13.3em;
+  }
+
+  .vanilla-fudge {
+    margin-top: 5.3em;
+    margin-left: 13.3em;
+  }
+
 }
 
 .cherry {
 
-  position: absolute;
-  width: 180px;
-}
-
-.vanilla-fudge {
-  margin-top: 2em;
-  position: absolute;
-  width: 180px;
-}
-
-.chocolate-chip {
-
-  position: absolute;
-  width: 180px;
-}
-
-.mint-chip {
   position: absolute;
   width: 180px;
 }
