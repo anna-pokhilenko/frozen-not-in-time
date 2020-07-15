@@ -7,7 +7,7 @@ main {
   background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff .5em,
   #d4fdff 0, #d4fdff 1em);
   border-bottom: 9px solid #b3fbff;
-  min-height: 480px;
+  min-height: 500px;
 }
 
 h1 {
@@ -35,30 +35,45 @@ p {
   color: #990073;
 }
 
+.cone {
+  margin-top: 15.5em;
+  position: absolute;
+  width: 180px;
+  margin-left: 12em;
+}
+
 @media only screen and (min-width: 90em) {
 
   .shift-w-push {
-    margin-left: 8.5rem;
+    padding-left: 8.5rem;
+  }
+
+  .cone {
+    margin-top: 14.5em;
+    margin-left: 13em;
   }
 
 }
 
 .cherry {
-z-index: 100;
+
+  position: absolute;
+  width: 180px;
 }
 
 .vanilla-fudge {
-  margin-top: -8em;
+  margin-top: 2em;
+  position: absolute;
+  width: 180px;
 }
 
 .chocolate-chip {
-    margin-top: -8em;
+
+  position: absolute;
+  width: 180px;
 }
 
 .mint-chip {
-    margin-top: -8em;
-}
-
-.cone {
-    margin-top: -8em;
+  position: absolute;
+  width: 180px;
 }
