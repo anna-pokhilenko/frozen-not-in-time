@@ -4,7 +4,8 @@ html {
 
 main {
   border-top: 9px solid #b3fbff;
-  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff .5em,
+  background:
+  repeating-linear-gradient(-35deg, #c9fcff, #c9fcff .5em,
   #d4fdff 0, #d4fdff 1em);
   border-bottom: 9px solid #b3fbff;
   min-height: 500px;
@@ -23,6 +24,10 @@ p {
   transform: rotate(-5deg);
   transform-origin: left bottom;
   margin-left: .375rem;
+}
+
+.pad-t-2 {
+  padding-top: 2.7rem;
 }
 
 .btn {
@@ -65,10 +70,22 @@ p {
   z-index: 10;
 }
 
+.cherry {
+  position: absolute;
+  width: 180px;
+  margin-top:-2.4em;
+  margin-left: 11.7em;
+  z-index: 11;
+}
+
 @media only screen and (min-width: 90em) {
 
   .shift-w-push {
-    padding-left: 8.5rem;
+    padding-left: 11.7rem;
+  }
+
+  .pad-t-2 {
+    padding-top: 1em;
   }
 
   .cone {
@@ -87,14 +104,12 @@ p {
   }
 
   .vanilla-fudge {
-    margin-top: 5.3em;
-    margin-left: 13.3em;
+    margin-top: 1.8em;
+    margin-left: 12.7em;
   }
 
-}
-
-.cherry {
-
-  position: absolute;
-  width: 180px;
+  .cherry {
+    margin-top:-2em;
+    margin-left: 12.8em;
+  }
 }
