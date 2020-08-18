@@ -40,11 +40,33 @@ p {
   color: #990073;
 }
 
+.btn:hover {
+  border-color: #c09;
+  color: #990073;
+}
+
+.cone-wrapper {
+  position: relative;
+}
+
 .cone {
-  margin-top: 15.5em;
+  margin-top: 16em;
   position: absolute;
   width: 180px;
   margin-left: 12em;
+  animation: cone .5s linear;
+}
+
+@keyframes cone {
+
+  from {
+    transform: translateY(-20em);
+  }
+
+  to {
+    transform: translateY(-5);
+  }
+
 }
 
 .mint-chip {
@@ -52,6 +74,19 @@ p {
   width: 180px;
   margin-top: 10em;
   margin-left: 12em;
+  animation: mint-chip .5s .5s linear;
+}
+
+@keyframes mint-chip {
+
+  from {
+    transform: translateY(-20em);
+  }
+
+  to {
+    transform: translateY(-5);
+  }
+
 }
 
 .chocolate-chip {
@@ -60,6 +95,19 @@ p {
   margin-top: 5.5em;
   margin-left: 12.3em;
   z-index: 5;
+  animation: chocolate-chip .5s 1s linear;
+}
+
+@keyframes chocolate-chip {
+
+  from {
+    transform: translateY(-20em);
+  }
+
+  to {
+    transform: translateY(-5);
+  }
+
 }
 
 .vanilla-fudge {
@@ -68,6 +116,19 @@ p {
   margin-top: 1.6em;
   margin-left: 11.5em;
   z-index: 10;
+  animation: vanilla-fudge .5s 1.5s linear;
+}
+
+@keyframes vanilla-fudge {
+
+  from {
+    transform: translateY(-20em);
+  }
+
+  to {
+    transform: translateY(-5);
+  }
+
 }
 
 .cherry {
@@ -76,6 +137,19 @@ p {
   margin-top:-2.4em;
   margin-left: 11.7em;
   z-index: 11;
+  animation: cherry .5s 2s linear;
+}
+
+@keyframes cherry {
+
+  from {
+    transform: translateY(-20em);
+  }
+
+  to {
+    transform: translateY(-5);
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
